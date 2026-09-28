@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shikha Gheyee | Lead Technical Writer & Information Architect</title>
+  <meta name="description" content="Portfolio of Shikha Gheyee — Lead Technical Writer specializing in Enterprise SaaS, AI-Native Documentation, Developer APIs, and Information Architecture." />
+  <meta name="keywords" content="Shikha Gheyee, Technical Writer, Lead Technical Writer, API Documentation, SaaS Docs, Information Architecture, Darwinbox, Amazon, Planful" />
+  <meta property="og:title" content="Shikha Gheyee | Lead Technical Writer" />
+  <meta property="og:description" content="Lead Technical Writer with ~9 years of experience documenting complex SaaS products, APIs, and AI features." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-theme="dark">
+  <!-- Background Glow & Grid -->
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+  <div class="bg-grid-pattern"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-badge">SG</span>
+        <span class="logo-text">Shikha Gheyee</span>
+      </a>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#impact" class="nav-link">Impact</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#samples" class="nav-link">Work Samples</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="btn-icon" aria-label="Toggle theme" title="Toggle Light/Dark Theme">
+          <i data-lucide="sun" class="sun-icon"></i>
+          <i data-lucide="moon" class="moon-icon"></i>
+        </button>
+        <button onclick="window.print()" class="btn btn-secondary btn-sm print-btn">
+          <i data-lucide="printer"></i>
+          <span>Print / PDF</span>
+        </button>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Open Menu">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-status-pill">
+            <span class="status-indicator"></span>
+            <span>Lead Technical Writer & Documentation Strategist</span>
+          </div>
+
+          <h1 class="hero-title">
+            Transforming complex systems into <span class="gradient-text">intuitive, developer-grade</span> documentation.
+          </h1>
+
+          <p class="hero-subtitle">
+            Close to <strong>9 years</strong> of expertise crafting high-impact enterprise SaaS documentation, 
+            AI-native knowledge bases for LLM agents, developer APIs, and frictionless user experiences.
+          </p>
+
+          <div class="hero-meta">
+            <span class="meta-item">
+              <i data-lucide="map-pin"></i> Hyderabad, India
+            </span>
+            <span class="meta-item">
+              <i data-lucide="mail"></i>
+              <a href="mailto:shikha.gheyee@gmail.com">shikha.gheyee@gmail.com</a>
+            </span>
+            <span class="meta-item">
+              <i data-lucide="phone"></i>
+              <a href="tel:+918500273942">+91 8500273942</a>
+            </span>
+          </div>
+
+          <div class="hero-cta-group">
+            <a href="#contact" class="btn btn-primary">
+              <i data-lucide="send"></i>
+              <span>Get in Touch</span>
+            </a>
+            <a href="#samples" class="btn btn-secondary">
+              <i data-lucide="book-open"></i>
+              <span>Explore Portfolio</span>
+            </a>
+            <button class="btn btn-outline" onclick="copyContact()">
+              <i data-lucide="copy" id="copyIcon"></i>
+              <span id="copyText">Copy Email</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-card-wrapper">
+          <div class="glass-card hero-feature-card">
+            <div class="card-header-bar">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="card-title-text">shikha-profile.spec.json</span>
+            </div>
+            <div class="code-preview">
+              <pre><code><span class="syn-key">"author"</span>: <span class="syn-str">"Shikha Gheyee"</span>,
+<span class="syn-key">"title"</span>: <span class="syn-str">"Lead Technical Writer"</span>,
+<span class="syn-key">"experience"</span>: <span class="syn-str">"~9 Years in Enterprise SaaS"</span>,
+<span class="syn-key">"focusAreas"</span>: [
+  <span class="syn-str">"AI-Native & Agentic Docs"</span>,
+  <span class="syn-str">"REST API References & SDKs"</span>,
+  <span class="syn-str">"Information Architecture"</span>,
+  <span class="syn-str">"Microcopy & UI Content"</span>
+],
+<span class="syn-key">"currentCompany"</span>: <span class="syn-str">"Darwinbox"</span>,
+<span class="syn-key">"pastImpact"</span>: [
+  <span class="syn-str">"Amazon Development Center"</span>,
+  <span class="syn-str">"Planful"</span>,
+  <span class="syn-str">"Kony / Temenos"</span>
+]</code></pre>
+            </div>
+            <div class="card-footer-stats">
+              <div class="mini-stat">
+                <span class="mini-num">18,000+</span>
+                <span class="mini-lbl">UI strings refined</span>
+              </div>
+              <div class="mini-stat">
+                <span class="mini-num">200+</span>
+                <span class="mini-lbl">Release notes</span>
+              </div>
+              <div class="mini-stat">
+                <span class="mini-num">33%</span>
+                <span class="mini-lbl">Faster onboarding</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Metrics / Numbers -->
+    <section class="section metrics-section" id="impact">
+      <div class="container">
+        <div class="metrics-grid">
+          <div class="metric-card glass-card">
+            <div class="metric-icon-wrap">
+              <i data-lucide="clock"></i>
+            </div>
+            <div class="metric-number">~9 yrs</div>
+            <div class="metric-label">Industry Experience</div>
+            <p class="metric-subtext">Documenting complex SaaS, API architectures, and enterprise AI platforms.</p>
+          </div>
+
+          <div class="metric-card glass-card">
+            <div class="metric-icon-wrap">
+              <i data-lucide="sparkles"></i>
+            </div>
+            <div class="metric-number">200+</div>
+            <div class="metric-label">Release Notes & Assets</div>
+            <p class="metric-subtext">Engineered GenAI prompt systems generating notes, 45 video scripts, & 39 use cases.</p>
+          </div>
+
+          <div class="metric-card glass-card">
+            <div class="metric-icon-wrap">
+              <i data-lucide="file-check"></i>
+            </div>
+            <div class="metric-number">18,000+</div>
+            <div class="metric-label">UI Strings Standardized</div>
+            <p class="metric-subtext">Collaborated across Product & UX to craft a consistent microcopy design system.</p>
+          </div>
+
+          <div class="metric-card glass-card">
+            <div class="metric-icon-wrap">
+              <i data-lucide="trending-up"></i>
+            </div>
+            <div class="metric-number">33%</div>
+            <div class="metric-label">Ramp-Up Reduction</div>
+            <p class="metric-subtext">Cut engineering onboarding time at Amazon Development Center for 60 developers.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Executive Summary</span>
+          <h2 class="section-title">Bridging Engineering, Product, and End Users</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text glass-card">
+            <p class="lead-paragraph">
+              I am a <strong>Lead Technical Writer</strong> with nearly 9 years of proven track record leading documentation 
+              initiatives for world-class SaaS, enterprise applications, and developer platforms.
+            </p>
+            <p>
+              My expertise lies at the intersection of <strong>Information Architecture</strong>, <strong>AI-native content design</strong>, 
+              and <strong>Developer Experience</strong>. I specialize in taking dense, distributed product capabilities—such as global payroll engines, 
+              workflow automations, and agentic AI architectures—and transforming them into self-serve documentation that both humans and LLM agents can easily navigate.
+            </p>
+            <p>
+              Beyond words on a page, I treat documentation as an engineering product: instituting peer-review workflows, 
+              integrating automated CI/CD release pipelines, standardizing design system microcopy, and leveraging Generative AI 
+              to amplify writer productivity without sacrificing accuracy or readability.
+            </p>
+
+            <div class="about-badges">
+              <span class="tech-pill"><i data-lucide="check-circle-2"></i> Information Architecture</span>
+              <span class="tech-pill"><i data-lucide="check-circle-2"></i> Agentic AI Documentation</span>
+              <span class="tech-pill"><i data-lucide="check-circle-2"></i> REST API & SDK Guides</span>
+              <span class="tech-pill"><i data-lucide="check-circle-2"></i> UI/UX Microcopy Governance</span>
+              <span class="tech-pill"><i data-lucide="check-circle-2"></i> Cross-functional Team Leadership</span>
+            </div>
+          </div>
+
+          <div class="about-pillars">
+            <div class="pillar-card glass-card">
+              <div class="pillar-icon"><i data-lucide="cpu"></i></div>
+              <div>
+                <h3>AI-Native Documentation</h3>
+                <p>Architecting structured documentation to power modern RAG retrieval, agentic workflows, and prompt-driven content systems.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card glass-card">
+              <div class="pillar-icon"><i data-lucide="terminal"></i></div>
+              <div>
+                <h3>Developer & API Docs</h3>
+                <p>Crafting OpenAPI/Swagger references, authentication guides, SDK tutorials, and Postman collections developers love.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card glass-card">
+              <div class="pillar-icon"><i data-lucide="layers"></i></div>
+              <div>
+                <h3>Enterprise CMS & Migration</h3>
+                <p>Hands-on mastery over component authoring (Paligo, Flare, Document360, DITA/XML) and content migration pipelines.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Career Trajectory</span>
+          <h2 class="section-title">Professional Experience</h2>
+          <p class="section-desc">A timeline of documentation leadership, technical enablement, and product impact.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Darwinbox Lead -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-card">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-role">Lead Technical Writer</h3>
+                  <div class="exp-company">Darwinbox</div>
+                </div>
+                <div class="exp-meta">
+                  <span class="exp-period"><i data-lucide="calendar"></i> Oct 2025 – Present</span>
+                  <span class="exp-location"><i data-lucide="map-pin"></i> Hyderabad, India</span>
+                </div>
+              </div>
+
+              <ul class="exp-points">
+                <li>
+                  <strong>GenAI Content Acceleration:</strong> Created high-precision prompt templates that accelerated the authoring of <strong>200+ release notes</strong>, <strong>45 video scripts</strong>, and <strong>39 detailed use cases</strong>, preserving enterprise voice, technical accuracy, and structural consistency.
+                </li>
+                <li>
+                  <strong>Core System Overhaul:</strong> Spearheaded a comprehensive documentation overhaul for mission-critical core modules (Payroll, Time Management, Studio, and Amplify), enhancing customer self-service clarity and organic search discovery.
+                </li>
+                <li>
+                  <strong>Leadership & Process Scalability:</strong> Mentored interns and onboarded 6 cross-functional team members, instituting structured ticket-tracking and peer-review systems that unlocked end-to-end visibility across engineering and product teams.
+                </li>
+              </ul>
+
+              <div class="exp-tags">
+                <span class="tag">GenAI Prompt Engineering</span>
+                <span class="tag">Information Architecture</span>
+                <span class="tag">Team Mentorship</span>
+                <span class="tag">Payroll & Studio</span>
+                <span class="tag">JIRA & Agile</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Darwinbox Senior -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-card">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-role">Senior Technical Writer</h3>
+                  <div class="exp-company">Darwinbox</div>
+                </div>
+                <div class="exp-meta">
+                  <span class="exp-period"><i data-lucide="calendar"></i> Apr 2023 – Oct 2025</span>
+                  <span class="exp-location"><i data-lucide="map-pin"></i> Hyderabad, India</span>
+                </div>
+              </div>
+
+              <ul class="exp-points">
+                <li>
+                  <strong>Agentic AI Documentation:</strong> Authored documentation for Darwinbox's proprietary Agentic AI features, establishing structured content taxonomies optimized for dual consumption: human readers and conversational AI assistants.
+                </li>
+                <li>
+                  <strong>Component Authoring at Scale:</strong> Wrote and maintained <strong>70+ detailed technical articles</strong> for Global Payroll and Darwinbox Studio modules using Paligo component CMS.
+                </li>
+                <li>
+                  <strong>Design System & UI Text Standardization:</strong> Partnered with Product & UX leadership to audit, rewrite, and standardize over <strong>18,000 UI text strings</strong>, driving product-wide consistency and lowering onboarding friction.
+                </li>
+                <li>
+                  <strong>Developer References & SDKs:</strong> Engineered comprehensive developer API references, authentication walkthroughs, and an SDK integration guide for third-party developers building on Darwinbox Studio.
+                </li>
+              </ul>
+
+              <div class="exp-tags">
+                <span class="tag">Paligo</span>
+                <span class="tag">API Reference</span>
+                <span class="tag">SDK Guides</span>
+                <span class="tag">Agentic AI</span>
+                <span class="tag">UX Content Strategy</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Amazon -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-card">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-role">Technical Writer - I</h3>
+                  <div class="exp-company">Amazon Development Center</div>
+                </div>
+                <div class="exp-meta">
+                  <span class="exp-period"><i data-lucide="calendar"></i> Sep 2022 – Mar 2023</span>
+                  <span class="exp-location"><i data-lucide="map-pin"></i> Hyderabad, India</span>
+                </div>
+              </div>
+
+              <ul class="exp-points">
+                <li>
+                  <strong>Engineering Workflows:</strong> Standardized technical writing conventions, style guides, and peer-review workflows for a <strong>60-person software engineering organization</strong>.
+                </li>
+                <li>
+                  <strong>Developer Onboarding:</strong> Authored an end-to-end engineering onboarding guide that slashed new-hire developer ramp-up time by <strong>33%</strong>.
+                </li>
+              </ul>
+
+              <div class="exp-tags">
+                <span class="tag">Engineering Enablement</span>
+                <span class="tag">Peer-Review Workflows</span>
+                <span class="tag">Developer Onboarding</span>
+                <span class="tag">Amazon Docs Standards</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Planful -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-card">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-role">Technical Writer</h3>
+                  <div class="exp-company">Planful Inc.</div>
+                </div>
+                <div class="exp-meta">
+                  <span class="exp-period"><i data-lucide="calendar"></i> Dec 2020 – Sep 2022</span>
+                  <span class="exp-location"><i data-lucide="map-pin"></i> Hyderabad, India</span>
+                </div>
+              </div>
+
+              <ul class="exp-points">
+                <li>
+                  <strong>AI & UI Module Ownership:</strong> Owned complete technical and user documentation for Planful’s flagship AI module (<strong>Predict</strong>) and next-gen UI module (<strong>Aphrodite</strong>).
+                </li>
+                <li>
+                  <strong>Enterprise CMS Migration:</strong> Successfully led the migration of legacy product documentation from <strong>MadCap Flare to Document360</strong>, significantly improving content discoverability, taxonomies, and authoring velocity.
+                </li>
+                <li>
+                  <strong>CI/CD Release Publishing:</strong> Orchestrated automated release documentation publishing pipelines across MadCap Flare, Git, and Bitbucket.
+                </li>
+                <li>
+                  <strong>Recognition:</strong> Honored with both the <em>Key Contributor Award</em> and <em>The Planful Values Award for Ownership</em> in 2022.
+                </li>
+              </ul>
+
+              <div class="exp-tags">
+                <span class="tag">Document360</span>
+                <span class="tag">MadCap Flare</span>
+                <span class="tag">AI Module (Predict)</span>
+                <span class="tag">Bitbucket CI/CD</span>
+                <span class="tag">Award Winner</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kony -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-card">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-role">Associate Technical Writer</h3>
+                  <div class="exp-company">Kony Inc. (Acquired by Temenos)</div>
+                </div>
+                <div class="exp-meta">
+                  <span class="exp-period"><i data-lucide="calendar"></i> Dec 2018 – Dec 2020</span>
+                  <span class="exp-location"><i data-lucide="map-pin"></i> Hyderabad, India</span>
+                </div>
+              </div>
+
+              <ul class="exp-points">
+                <li>
+                  <strong>Developer Platforms:</strong> Authored developer API guides, complex installation manuals, and release notes for enterprise low-code platforms (<strong>Quantum Visualizer</strong> and <strong>Quantum Fabric</strong>).
+                </li>
+                <li>
+                  <strong>Analytics-Driven Documentation:</strong> Leveraged Google Analytics and Hotjar user telemetry to identify search bottlenecks and navigation drop-offs, driving informed structural content iterations.
+                </li>
+                <li>
+                  <strong>Multimedia & Community:</strong> Produced video scripts and recorded voiceovers for customer training videos; authored active technical problem-solving articles for developer community forums.
+                </li>
+              </ul>
+
+              <div class="exp-tags">
+                <span class="tag">Quantum Visualizer</span>
+                <span class="tag">Google Analytics</span>
+                <span class="tag">Hotjar UX</span>
+                <span class="tag">Video Scripts</span>
+                <span class="tag">API Manuals</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Samples & Methodology Showcase -->
+    <section class="section" id="samples">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Case Studies & Documentation Practice</span>
+          <h2 class="section-title">How I Structure & Deliver Documentation</h2>
+          <p class="section-desc">Interactive breakdowns of documentation architecture, API design, and GenAI workflows.</p>
+        </div>
+
+        <!-- Sample Tabs -->
+        <div class="sample-tabs-container glass-card">
+          <div class="sample-tabs-header">
+            <button class="sample-tab-btn active" data-tab="tab-api">
+              <i data-lucide="code-2"></i>
+              <span>API Reference & SDK Design</span>
+            </button>
+            <button class="sample-tab-btn" data-tab="tab-ai">
+              <i data-lucide="bot"></i>
+              <span>AI-Native & Agentic Architecture</span>
+            </button>
+            <button class="sample-tab-btn" data-tab="tab-ui">
+              <i data-lucide="sparkle"></i>
+              <span>UX Microcopy System (18k Strings)</span>
+            </button>
+            <button class="sample-tab-btn" data-tab="tab-migration">
+              <i data-lucide="shuffle"></i>
+              <span>CMS Migration Strategy</span>
+            </button>
+          </div>
+
+          <div class="sample-tab-body">
+            <!-- TAB 1: API & SDK -->
+            <div class="tab-pane active" id="tab-api">
+              <div class="sample-case-study">
+                <div class="case-meta">
+                  <h3>Darwinbox Studio REST API & Webhook Specifications</h3>
+                  <p>Crafting clear developer experiences with consistent parameter tables, real-world schemas, and copyable curl/SDK snippets.</p>
+                </div>
+
+                <div class="interactive-api-preview">
+                  <div class="api-endpoint-badge">
+                    <span class="method post">POST</span>
+                    <span class="endpoint-path">/v2/studio/integrations/trigger</span>
+                    <span class="auth-tag">Bearer Auth</span>
+                  </div>
+
+                  <div class="api-demo-grid">
+                    <div class="api-demo-col">
+                      <h4>Request Payload (JSON)</h4>
+                      <pre><code>{
+  <span class="syn-key">"workflow_id"</span>: <span class="syn-str">"wf_payroll_sync_8892"</span>,
+  <span class="syn-key">"trigger_source"</span>: <span class="syn-str">"external_webhook"</span>,
+  <span class="syn-key">"payload"</span>: {
+    <span class="syn-key">"employee_id"</span>: <span class="syn-str">"EMP-10492"</span>,
+    <span class="syn-key">"effective_date"</span>: <span class="syn-str">"2026-10-01"</span>,
+    <span class="syn-key">"salary_revision_code"</span>: <span class="syn-str">"REV_ANNUAL_PROMO"</span>
+  },
+  <span class="syn-key">"callback_url"</span>: <span class="syn-str">"https://api.enterprise.com/v1/callbacks"</span>
+}</code></pre>
+                    </div>
+                    <div class="api-demo-col">
+                      <h4>Response Specification (200 OK)</h4>
+                      <pre><code>{
+  <span class="syn-key">"status"</span>: <span class="syn-str">"queued"</span>,
+  <span class="syn-key">"job_id"</span>: <span class="syn-str">"job_9a38fc2810d"</span>,
+  <span class="syn-key">"estimated_completion_ms"</span>: <span class="syn-num">1200</span>,
+  <span class="syn-key">"links"</span>: {
+    <span class="syn-key">"status_check"</span>: <span class="syn-str">"/v2/studio/jobs/job_9a38fc2810d"</span>
+  }
+}</code></pre>
+                    </div>
+                  </div>
+
+                  <div class="doc-takeaway">
+                    <strong>Writing Philosophy:</strong> Developers don't read docs sequentially—they scan for curl commands, authentication schemas, and edge case error codes. Every API doc I deliver includes sandbox payloads, clear error dictionaries, and validation constraints.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- TAB 2: AI Native -->
+            <div class="tab-pane" id="tab-ai">
+              <div class="sample-case-study">
+                <div class="case-meta">
+                  <h3>Agentic AI Documentation: Structuring for Humans & LLMs</h3>
+                  <p>How I structure enterprise product knowledge to simultaneously empower end-users and serve as high-relevance chunks for Retrieval Augmented Generation (RAG).</p>
+                </div>
+
+                <div class="ai-architecture-card">
+                  <div class="arch-flow">
+                    <div class="flow-step">
+                      <div class="step-num">01</div>
+                      <h4>Semantic Chunking</h4>
+                      <p>Breaking long-form product specs into discrete, task-based modular units with explicit pre-conditions and post-conditions.</p>
+                    </div>
+                    <div class="flow-step">
+                      <div class="step-num">02</div>
+                      <h4>Entity & Taxonomy Tagging</h4>
+                      <p>Implementing structured frontmatter metadata, role-based intent tags, and canonical synonym mappings.</p>
+                    </div>
+                    <div class="flow-step">
+                      <div class="step-num">03</div>
+                      <h4>Prompt Template System</h4>
+                      <p>Standardized prompt libraries that generated 200+ release notes and 45 video scripts with 0 hallucination drift.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- TAB 3: UI Microcopy -->
+            <div class="tab-pane" id="tab-ui">
+              <div class="sample-case-study">
+                <div class="case-meta">
+                  <h3>The 18,000+ UI Text Strings Standardization Initiative</h3>
+                  <p>Transforming fragmented developer-written strings into an intuitive, accessible product terminology standard.</p>
+                </div>
+
+                <div class="comparison-grid">
+                  <div class="compare-card before">
+                    <span class="badge-danger">Before (Inconsistent & Ambiguous)</span>
+                    <div class="microcopy-box">
+                      <p class="sample-title">"Error 5013 occurred. Transaction cancelled. Cannot commit records."</p>
+                      <span class="microcopy-hint">Confusing system error, technical jargon, no actionable remedy for HR administrator.</span>
+                    </div>
+                  </div>
+                  <div class="compare-card after">
+                    <span class="badge-success">After (Clear, Human-Centered, Actionable)</span>
+                    <div class="microcopy-box">
+                      <p class="sample-title">"Unable to process payroll cycle. Review 3 employees missing tax registration details to continue."</p>
+                      <span class="microcopy-hint">Action-oriented microcopy with direct deep link to the unresolved records.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- TAB 4: CMS Migration -->
+            <div class="tab-pane" id="tab-migration">
+              <div class="sample-case-study">
+                <div class="case-meta">
+                  <h3>MadCap Flare to Document360 / Paligo Enterprise Migrations</h3>
+                  <p>Zero downtime migration blueprint for legacy enterprise content repositories.</p>
+                </div>
+
+                <div class="migration-steps-grid">
+                  <div class="mig-card">
+                    <i data-lucide="database"></i>
+                    <h4>Content Audit & Taxonomy</h4>
+                    <p>Cataloged 500+ legacy topics, pruned deprecated functionality, and standardized topic hierarchies.</p>
+                  </div>
+                  <div class="mig-card">
+                    <i data-lucide="git-merge"></i>
+                    <h4>Component Reuse</h4>
+                    <p>Transformed duplicate snippets into reusable single-source variables across multiple product editions.</p>
+                  </div>
+                  <div class="mig-card">
+                    <i data-lucide="shield-check"></i>
+                    <h4>Searchability & SEO</h4>
+                    <p>Enhanced in-app search hit rates by over 40% through structured tagging and SEO-optimized metadata.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Core Competencies</span>
+          <h2 class="section-title">Technical Skills & Tooling</h2>
+          <p class="section-desc">A deep toolkit honed across authoring, engineering systems, AI tooling, and user research.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Authoring & CMS -->
+          <div class="skill-category glass-card">
+            <div class="skill-cat-header">
+              <div class="skill-icon-box"><i data-lucide="file-text"></i></div>
+              <h3>Authoring & CMS</h3>
+            </div>
+            <p class="skill-cat-desc">Component-based authoring, single sourcing, structured markup, and enterprise documentation hubs.</p>
+            <div class="skill-pill-list">
+              <span class="skill-pill highlight">Paligo</span>
+              <span class="skill-pill highlight">Document360</span>
+              <span class="skill-pill highlight">MadCap Flare</span>
+              <span class="skill-pill">XML / DITA</span>
+              <span class="skill-pill">Confluence</span>
+              <span class="skill-pill">Markdown</span>
+            </div>
+          </div>
+
+          <!-- Developer & Release Tools -->
+          <div class="skill-category glass-card">
+            <div class="skill-cat-header">
+              <div class="skill-icon-box"><i data-lucide="git-branch"></i></div>
+              <h3>Developer & Release Tools</h3>
+            </div>
+            <p class="skill-cat-desc">Docs-as-code pipelines, version control, API exploratory testing, and agile tracking.</p>
+            <div class="skill-pill-list">
+              <span class="skill-pill highlight">Git</span>
+              <span class="skill-pill highlight">Bitbucket</span>
+              <span class="skill-pill highlight">Postman</span>
+              <span class="skill-pill">JIRA</span>
+              <span class="skill-pill">Swagger / OpenAPI</span>
+              <span class="skill-pill">CI/CD Pipelines</span>
+            </div>
+          </div>
+
+          <!-- Generative AI & Prompt Engineering -->
+          <div class="skill-category glass-card">
+            <div class="skill-cat-header">
+              <div class="skill-icon-box"><i data-lucide="sparkles"></i></div>
+              <h3>Generative AI & Prompting</h3>
+            </div>
+            <p class="skill-cat-desc">Building prompt templates, structured LLM context, RAG documentation, and AI agent guides.</p>
+            <div class="skill-pill-list">
+              <span class="skill-pill highlight">Prompt Engineering</span>
+              <span class="skill-pill highlight">ChatGPT</span>
+              <span class="skill-pill highlight">Claude</span>
+              <span class="skill-pill">Gemini</span>
+              <span class="skill-pill">Microsoft Copilot</span>
+              <span class="skill-pill">NotebookLM</span>
+              <span class="skill-pill">Perplexity</span>
+            </div>
+          </div>
+
+          <!-- Analytics & UX Research -->
+          <div class="skill-category glass-card">
+            <div class="skill-cat-header">
+              <div class="skill-icon-box"><i data-lucide="bar-chart-3"></i></div>
+              <h3>Analytics & UX Research</h3>
+            </div>
+            <p class="skill-cat-desc">User telemetry, session analysis, customer pain point identification, and visual documentation.</p>
+            <div class="skill-pill-list">
+              <span class="skill-pill highlight">Google Analytics</span>
+              <span class="skill-pill highlight">Hotjar</span>
+              <span class="skill-pill highlight">Pendo</span>
+              <span class="skill-pill">Snagit</span>
+              <span class="skill-pill">Camtasia</span>
+              <span class="skill-pill">Video Scripting</span>
+            </div>
+          </div>
+
+          <!-- Web & Formats -->
+          <div class="skill-category glass-card">
+            <div class="skill-cat-header">
+              <div class="skill-icon-box"><i data-lucide="code"></i></div>
+              <h3>Web & Technical Languages</h3>
+            </div>
+            <p class="skill-cat-desc">Writing, reading, and customizing technical frontends and documentation formatting engines.</p>
+            <div class="skill-pill-list">
+              <span class="skill-pill highlight">HTML5</span>
+              <span class="skill-pill highlight">CSS3</span>
+              <span class="skill-pill highlight">XML</span>
+              <span class="skill-pill">JSON</span>
+              <span class="skill-pill">Markdown</span>
+              <span class="skill-pill">YAML</span>
+            </div>
+          </div>
+
+          <!-- Leadership & Process -->
+          <div class="skill-category glass-card">
+            <div class="skill-cat-header">
+              <div class="skill-icon-box"><i data-lucide="users"></i></div>
+              <h3>Strategy & Leadership</h3>
+            </div>
+            <p class="skill-cat-desc">Cross-functional team alignment, style guide creation, mentoring, and technical onboarding.</p>
+            <div class="skill-pill-list">
+              <span class="skill-pill highlight">Information Architecture</span>
+              <span class="skill-pill highlight">Style Guide Governance</span>
+              <span class="skill-pill">Writer Mentorship</span>
+              <span class="skill-pill">Cross-functional Alignment</span>
+              <span class="skill-pill">Peer-Review Workflows</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Awards Section -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Credentials</span>
+          <h2 class="section-title">Education & Honors</h2>
+        </div>
+
+        <div class="edu-awards-grid">
+          <!-- Education Column -->
+          <div class="edu-card glass-card">
+            <div class="card-inner-header">
+              <i data-lucide="graduation-cap" class="header-icon"></i>
+              <h3>Academic Background</h3>
+            </div>
+
+            <div class="credential-item">
+              <div class="cred-institution">Indian Institute of Management (IIM), Tiruchirappalli</div>
+              <div class="cred-degree">PG Certificate in Executive General Management (PGPEGMP)</div>
+              <div class="cred-years"><i data-lucide="calendar"></i> 2021 – 2022</div>
+              <p class="cred-desc">Advanced executive education bridging strategic management, leadership, business operations, and organizational strategy.</p>
+            </div>
+
+            <div class="credential-item">
+              <div class="cred-institution">Keshav Memorial Institute of Technology (JNTU), Hyderabad</div>
+              <div class="cred-degree">B.Tech in Computer Science Engineering</div>
+              <div class="cred-years"><i data-lucide="calendar"></i> 2014 – 2018</div>
+              <p class="cred-desc">Rigorous engineering foundation in software algorithms, web development, data structures, and computer architecture.</p>
+            </div>
+          </div>
+
+          <!-- Awards Column -->
+          <div class="awards-card glass-card">
+            <div class="card-inner-header">
+              <i data-lucide="award" class="header-icon"></i>
+              <h3>Awards & Honors</h3>
+            </div>
+
+            <div class="award-item">
+              <div class="award-badge-icon"><i data-lucide="star"></i></div>
+              <div>
+                <h4 class="award-title">Key Contributor Award</h4>
+                <div class="award-org">Planful Inc. • 2022</div>
+                <p class="award-desc">Recognized for pivotal ownership and flawless execution of the AI Predict documentation and enterprise CMS migration.</p>
+              </div>
+            </div>
+
+            <div class="award-item">
+              <div class="award-badge-icon"><i data-lucide="shield-check"></i></div>
+              <div>
+                <h4 class="award-title">The Planful Values Award for Ownership</h4>
+                <div class="award-org">Planful Inc. • 2022</div>
+                <p class="award-desc">Awarded for embodying company core values, driving cross-team collaboration, and taking full end-to-end accountability.</p>
+              </div>
+            </div>
+
+            <div class="cert-box">
+              <h4>Combined Engineering & Business Edge</h4>
+              <p>The combination of a <strong>B.Tech in Computer Science</strong> and an <strong>Executive Management credential from IIM</strong> allows me to converse fluently with engineers while aligning documentation strategy with executive business KPIs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Connect Section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-card glass-card">
+          <div class="contact-header">
+            <span class="section-tag">Let's Connect</span>
+            <h2 class="section-title">Ready to Elevate Your Documentation?</h2>
+            <p class="contact-subtitle">
+              Whether you are scaling an enterprise SaaS platform, modernizing developer APIs, 
+              or structuring documentation for Agentic AI, I'd love to connect.
+            </p>
+          </div>
+
+          <div class="contact-methods">
+            <a href="mailto:shikha.gheyee@gmail.com" class="contact-item">
+              <div class="contact-icon"><i data-lucide="mail"></i></div>
+              <div class="contact-info">
+                <span class="label">Email Directly</span>
+                <span class="value">shikha.gheyee@gmail.com</span>
+              </div>
+            </a>
+
+            <a href="tel:+918500273942" class="contact-item">
+              <div class="contact-icon"><i data-lucide="phone"></i></div>
+              <div class="contact-info">
+                <span class="label">Call / WhatsApp</span>
+                <span class="value">+91 8500273942</span>
+              </div>
+            </a>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i data-lucide="map-pin"></i></div>
+              <div class="contact-info">
+                <span class="label">Location</span>
+                <span class="value">Hyderabad, India (Open to Remote / Hybrid)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-actions">
+            <a href="mailto:shikha.gheyee@gmail.com?subject=Inquiry%20regarding%20Technical%20Writing%20Leadership" class="btn btn-primary btn-lg">
+              <i data-lucide="send"></i>
+              <span>Send an Email</span>
+            </a>
+            <button class="btn btn-secondary btn-lg" onclick="copyContact()">
+              <i data-lucide="copy"></i>
+              <span id="copyBtnText2">Copy Contact Details</span>
+            </button>
+            <button class="btn btn-outline btn-lg" onclick="window.print()">
+              <i data-lucide="download"></i>
+              <span>Save Resume as PDF</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <p>© <span id="currentYear">2026</span> Shikha Gheyee. Designed for GitHub Pages.</p>
+      </div>
+      <div class="footer-right">
+        <span class="footer-badge">Built with Semantic HTML5 & Modern CSS</span>
+        <a href="#hero" class="back-to-top" title="Back to top">
+          <i data-lucide="arrow-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast">
+    <i data-lucide="check-circle" class="toast-icon"></i>
+    <span id="toastMsg">Email copied to clipboard!</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
